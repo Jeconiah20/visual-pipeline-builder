@@ -1,4 +1,4 @@
-Visual Pipeline Builder
+Visual Pipeline Builder:
 
 This project is a visual pipeline builder built using React, ReactFlow, and FastAPI.
 
@@ -11,21 +11,26 @@ The frontend sends pipeline data to a FastAPI backend, which validates the pipel
 
 This project was completed as part of a frontend technical assessment.
 
-Tech Stack
+Tech Stack:
 React
 ReactFlow
 Zustand
 FastAPI
 Python
 
-How to Run
+How to Run:
 
-Frontend
+Frontend-
+
 cd frontend
+
 npm install
+
 npm start
 
 
-Backend
+Backend-
+
 cd backend
+
 python -m uvicorn main:app --reload
